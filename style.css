@@ -1,0 +1,332 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #005faa;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.post {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* WhatsApp Chat Button */
+.chat-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: shake 2s infinite;
+}
+
+.chat-whatsapp img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Animasi goyang */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(2px); }
+  50% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
+}
+
+.motivasi-sholat {
+  background: #fff8e1;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5c3d00;
+  font-weight: bold;
+  border-left: 5px solid #ffc107;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.motivasi-sholat {
+  background: #fff3cd;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5c3d00;
+  font-weight: bold;
+  border-left: 5px solid #ffc107;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.motivasi-sholat button {
+  margin-top: 1rem;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.motivasi-sholat button:hover {
+  background-color: #e0a800;
+}
+
+body {
+  background-color:#FFD700;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #006400;
+}
+
+button {
+  background-color: #FFD700;
+  color: #006400;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e0b100;
+}
+
+.logo {
+  width: 150px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #006400, #228B22);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.banner-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+}
+
+.banner-text h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.banner-text p {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.motivasi-box {
+  background-color: #FFD700; /* kuning */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.motivasi-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.motivasi-box {
+  background-color: #FFD700; /* Kuning terang */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.motivasi-content {
+  background-color: #FFFFFF; /* Putih */
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.motivasi-content h3 {
+  font-weight: bold;
+  color: #000000; /* Hitam */
+}
+
+.motivasi-content p {
+  color: #333333; /* Abu gelap */
+  line-height: 1.6;
+}
+
+.official-website {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #228B22;
+  border-top: 2px solid #ccc;
+}
+
+.official-website a {
+  font-size: 18px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.official-website a:hover {
+  text-decoration: underline;
+#kotakJam {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #026e24;
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  z-index: 999;
+}  color: #003366;
+}
+
+.tanggal-hari {
+  background-color: white;
+  color: black;
+  padding: 6px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  letter-spacing: 1px;
+}
+
+#kotakJam {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #026e24;
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.jam-hari {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #026e24; /* Hijau MTsN */
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.jam-hari {
+  font-family: Arial, sans-serif;
+  background-color: #026e24; /* Hijau khas MTsN */
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+}
